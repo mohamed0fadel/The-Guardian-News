@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:title="@string/main" />
+        <item
+            android:id="@+id/country"
+            android:title="@string/home_country" />
+        <item
+            android:id="@+id/politics"
+            android:title="@string/politics" />
+        <item
+            android:id="@+id/economy"
+            android:title="@string/economy" />
+        <item
+            android:id="@+id/education"
+            android:title="@string/education" />
+        <item
+            android:id="@+id/technology"
+            android:title="@string/technology" />
+        <item
+            android:id="@+id/sport"
+            android:title="@string/sport" />
+        <item
+            android:id="@+id/film"
+            android:title="@string/film" />
+
+    </group>
+
+    <item android:title="@string/preference">
+        <menu>
+            <item
+                android:id="@+id/sttings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+
+</menu>

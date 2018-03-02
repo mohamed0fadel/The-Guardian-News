@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">The Guardian</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="preference" translatable="false">Preference</string>
+
+    <string name="main" translatable="false">Main</string>
+    <string name="home_country" translatable="false">Home Country</string>
+    <string name="politics" translatable="false">Politics</string>
+    <string name="economy" translatable="false">Society</string>
+    <string name="education" translatable="false">Education</string>
+    <string name="technology" translatable="false">Technology</string>
+    <string name="sport" translatable="false">Sport</string>
+    <string name="film" translatable="false">Film</string>
+    <string name="search" translatable="false">Search</string>
+
+
+    <string name="list_title_place_holder">this is event title place holder so if you are a USER you wont see it ever</string>
+    <string name="list_contriputer_place_holder">mohamed fadel as usual</string>
+    <string name="list_date_place_holder">24-9-1997</string>
+    <string name="list_type_place_holder">@string/education</string>
+
+
+    <string name="no_data">No New Events To Display Now</string>
+    <string name="no_connection">Check your internet and try again</string>
+
+    <string name="user_key">9566393d-2cd8-4e40-bc23-babac7128bb6</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Event Settings</string>
+    <string name="settings_min_news_default">10</string>
+    <string name="settings_min_news_key">news_number</string>
+    <string name="settings_min_magnitude_label">News Number</string>
+
+
+    <string name="settings_country">Settings</string>
+    <string name="settings_country_default">Egypt</string>
+    <string name="settings_country_key">country</string>
+    <string name="settings_country_label">Country</string>
+
+
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_most_oldest_label">Oldest</string>
+    <string name="settings_order_by_most_oldest_value" translatable="false">oldest</string>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_most_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_most_oldest_value</item>
+    </string-array>
+
+
+</resources>
